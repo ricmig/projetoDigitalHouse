@@ -53,8 +53,17 @@ height: 100%;
 footer ul {
     display: flex;
     list-style: none;
+    flex-direction:row;
+    justify-content: flex-start; 
+    margin-left:35px;
+    padding:5px;
 }
 
 footer ul li{
     padding: 4px;
+}
+
+#faleConosco{
+    margin-left:auto;
+    margin-right:5px;
 }
