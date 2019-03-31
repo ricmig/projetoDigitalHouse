@@ -1,12 +1,49 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .side-menu {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  width:300px;
+}
+
+.side-menu__btn {
+  background:#7D81CE;
+  color: white;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin: 1rem;
+  cursor: pointer;
+}
+.side-menu__btn:hover{
+  background-color:rgba(125, 129, 206, 0.36);
+}
+
+.display {
+  width: 500px;
+  height: 500px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#cadastro, #pagamento, #historico, #pedidosEmAndamento, 
+#pedidosRecorrentes {
+  padding: 1rem 2rem;
+}
+
+.hide {
+  display:none;
+}
+.show{
+  display: block;
 }
