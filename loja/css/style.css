@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#carousel {
+    background-color: #F4FF73;
+    height: 40vh;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel .categoria-produto {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 2%;
+}
+
+#carousel .categoria-produto a {
+    padding: 5%;
+}
+
+.img-round {
+    padding: 1%;
+    border-radius: 50%;
+}
+
+#carousel h2 a {
+    text-decoration: none;
+    color: #5CD175;
+}
+
+#carousel h2 a:hover {
+    color: #49a75d;
+}
+
+#container-produtos {
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    margin: 2%;
+    border-radius: 5%;
+    background-color: #f1f1f1;
+}
+
+.produto img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    width: 200px;
+    height: 200px;
+}
+
+.produto .produto-wrapper {
+    color: #999999;
+    background-color: #f1f1f1;
+
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: center;
+    padding: 10%;
+
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.produto .produto-wrapper span {
+    margin: 0 10px;
+}
+
+
+
