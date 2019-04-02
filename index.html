@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>Deliveg</title>
@@ -31,7 +34,18 @@
 
         <!-- ========== Carrocel ========== -->
         <section class="carrocel">
-                <p>Frutas em destaque</p>
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer"> 
+                    <div class="owl-stage">   
+                        <div class="owl-item"><img src="img/alface.jpg" alt="alface"></div>
+                        <div class="owl-item"><img src="img/cenoura.jpg" alt="cenoura"></div>
+                        <div class="owl-item"><img src="img/pimentao.jpg" alt="pimentao"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <p>Frutas em destaque</p>
         </section>
 
         <!-- ========== Raio de Entrega ========== -->
@@ -39,9 +53,14 @@
             <h2>Raio de entrega</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam totam reiciendis
                 necessitatibus odio fuga aliquam.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14631.013926704016!2d-46.65606015!3d-23.541367349999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1554198050307!5m2!1spt-BR!2sbr" width="419" height="218" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14631.013926704016!2d-46.65606015!3d-23.541367349999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1554198050307!5m2!1spt-BR!2sbr"
+                width="419" height="218" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
-
     </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.0.0.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
