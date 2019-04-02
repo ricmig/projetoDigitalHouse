@@ -24,9 +24,7 @@ Plataforma E-commerce para venda de frutas e verduras.
 ### Styling 
 
 * CSS  - criação de classes utilizando metodologia BEM (https://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
-* Fontes: https://fonts.google.com/specimen/Fredoka+One e Lato para outros textos: https://fonts.google.com/specimen/Lato
-
-as 
+* Fontes: https://fonts.google.com/specimen/Fredoka+One (font-family: 'Fredoka One', cursive;) / https://fonts.google.com/specimen/Lato (font-family: 'Lato', sans-serif;)
 * Paleta de Cor: Verde #82AB4D; laranja #FFAD29
 e secundarias pra usar so se preciso de apoio: verde escuro: #3E7054 e amarelo: #FFEA2C
 
