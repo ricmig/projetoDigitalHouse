@@ -1,4 +1,4 @@
-## Projeto Digital House 
+﻿## Projeto Digital House 
 
 Plataforma E-commerce para venda de frutas e verduras. 
 
@@ -24,8 +24,11 @@ Plataforma E-commerce para venda de frutas e verduras.
 ### Styling 
 
 * CSS  - criação de classes utilizando metodologia BEM (https://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
-* Fontes: 
-* Paleta de Cor: 
+* Fontes: https://fonts.google.com/specimen/Fredoka+One e Lato para outros textos: https://fonts.google.com/specimen/Lato
+
+as 
+* Paleta de Cor: Verde #82AB4D; laranja #FFAD29
+e secundarias pra usar so se preciso de apoio: verde escuro: #3E7054 e amarelo: #FFEA2C
 
 
 ### Para edição de arquivo README.md:
@@ -33,3 +36,5 @@ Plataforma E-commerce para venda de frutas e verduras.
 * https://dillinger.io/ 
 * https://react-preview-markdown.netlify.com/
 * https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+
