@@ -1,0 +1,23 @@
+{
+  "name": "projetodigitalhouse",
+  "version": "1.0.0",
+  "description": "projeto e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricmig/projetoDigitalHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricmig/projetoDigitalHouse/issues"
+  },
+  "homepage": "https://github.com/ricmig/projetoDigitalHouse#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1"
+  }
+}
