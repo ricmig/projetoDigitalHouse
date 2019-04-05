@@ -5,6 +5,11 @@ Plataforma E-commerce para venda de frutas e verduras.
     **Figma reference**: https://www.figma.com/files/team/690268141676220771/PROJETO-DIGITAL-HOUSE
 
     **Test view**: https://ricmig.github.io/projetoDigitalHouse/
+    
+### Pre-requisitos para rodar o projeto:
+
+ * NodeJs instalado
+ * Npm instalado 
 
 ### Instruções para contribuidores do projeto:
 
