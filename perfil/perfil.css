@@ -28,6 +28,7 @@
 }
 
 .display {
+  margin-top: 2rem;
   width: 500px;
   height: 500px;
   border: 1px solid grey;
