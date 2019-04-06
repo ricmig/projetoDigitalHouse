@@ -9,11 +9,46 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-header-footer.css">
     <title>Deliveg</title>
 </head>
 
 <body>
     <!-- ========== Carrossel ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Deliveg</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto " >
+                <li class="nav-item active navbar-notlogged">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item navbar-notlogged">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown navbar-notlogged">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <a href="./login/login.html" class="btn btn-primary my-2 my-sm-0" type="submit">Login</a>
+        </div>
+    </nav>
+        
+    <div class="container">
 
     <section class="carrossel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -101,6 +136,7 @@
 
     <!-- ========== Raio de Entrega ========== -->
 
+<<<<<<< HEAD
     <section class="section section_raio">
             <div class="container">
                 <div class="row section_div">
@@ -122,6 +158,20 @@
     <!-- </div> -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+=======
+        <!-- ========== Raio de Entrega ========== -->
+        <section class="raioEntrega">
+            <h2>Raio de entrega</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam totam reiciendis
+                necessitatibus odio fuga aliquam.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14631.013926704016!2d-46.65606015!3d-23.541367349999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1554198050307!5m2!1spt-BR!2sbr"
+                width="419" height="218" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+>>>>>>> 3e252f1a5f9f1503008665d9634715ff7892f6e7
     <script src="js/main.js"></script>
 </body>
 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Perfil</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style-header-footer.css">
+  <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand" href="#">Deliveg</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto " >
+                <li class="nav-item active navbar-notlogged">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item navbar-notlogged">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown navbar-notlogged">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+            </ul>       
+        </div>
+
+    </nav>
+
+    <div id="login" class="form-container">
+        <form class="form" action='/home'>
+            <label  for="email">Email</label>
+            <input id="login-email" type="email" name="email" placeholder="seu email" required>
+            <p class='login-email-error'></p>
+            <label for="password">Senha</label>
+            <input id="login-password" type="password" name='password' required minlength="6" maxlength="9">
+            <p class='login-password-error'></p>
+            <button id="login-btn" class='btn btn-primary'' type="button">Entrar</button>
+            <span id='loading-gif-login'></span>
+            <a href="#cadastro" class="link-cadastro">Não tem conta? <br>Faça seu cadastro aqui.</a>
+        </form>
+    </div>
+    
+    <div id="cadastro" class="cadastro-form-container">
+
+    <form class="form">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" name="nome" placeholder="seu nome">
+        <label for="email">Email</label>
+        <input id="cadastro-email" type="email" name="email" placeholder="seu email">
+        <p class='cadastro-email-error'></p>
+        <label for="password" >Senha</label>
+        <input id="cadastro-password" type="password" name='password'required minlength="6" maxlength="9" >
+        <p class='cadastro-password-error'></p>
+        <label for="password" >Confirmação de Senha</label>
+        <input id="cadastro-conf-password" type="password" name='password'required minlength="6" maxlength="9">
+        <p class='cadastro-password-conf-error'></p>
+        <button id="cadastro-btn" class='btn btn-primary' type="submit">Cadastrar e entrar</button>
+        <a href="#login" class="link-login">Já tem conta?<br> Faça o seu login.</a>
+    </form> 
+    
+    </div>
+            
+  <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="login.js"></script>
+</body>
