@@ -29,18 +29,23 @@ Plataforma E-commerce para venda de frutas e verduras.
 * Login - Nicolas
 * Perfil - Natalya 
 * Loja - Laura 
-* Carrinho - gabriela
+* Carrinho - Gabriela
 
 ### Styling 
 
 * CSS  - criação de classes utilizando metodologia BEM (https://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
 
-* Fontes:``font-family: 'Fredoka One',cursive;`` https://fonts.google.com/specimen/Fredoka+One
- | ``font-family: 'Lato', sans-serif;`` https://fonts.google.com/specimen/Lato
+* Fontes:``font-family: 'Fredoka One',cursive;`` @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+ | ``font-family: 'Lato', sans-serif;`` @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-* Paleta de Cor: Verde #82AB4D; laranja #FFAD29
-e secundarias pra usar so se preciso de apoio: verde escuro: #3E7054 e amarelo: #FFEA2C
-
+* Paleta de Cor: 
+- ![#82AB4D](https://placehold.it/15/f03c15/000000?text=+) `#82AB4D`
+- ![#FFAD29](https://placehold.it/15/c5f015/000000?text=+) `#FFAD29`
+- ![#3E7054](https://placehold.it/15/1589F0/000000?text=+) `#3E7054 (COR DE APOIO)`
+- ![#FFEA2C](https://placehold.it/15/1589F0/000000?text=+) `#FFEA2C (COR DE APOIO`
+- ![#FFFFFF](https://placehold.it/15/1589F0/000000?text=+) `#FFFFFF`
+- ![#F1F1F1](https://placehold.it/15/1589F0/000000?text=+) `#F1F1F1`
+- ![#OOOOOO](https://placehold.it/15/1589F0/000000?text=+) `#000000`
 
 ### Para edição de arquivo README.md:
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
 /* * {
     outline: 4px solid red; 
 } */
@@ -10,7 +13,9 @@
     align-items: center;
 }
 
-
+.container-fluid {
+    padding: 0;
+}
 
 h2{
     font-family: 'Fredoka One', cursive;
