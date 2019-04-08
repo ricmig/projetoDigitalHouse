@@ -39,13 +39,13 @@ Plataforma E-commerce para venda de frutas e verduras.
  | ``font-family: 'Lato', sans-serif;`` @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 * Paleta de Cor: 
-- ![#82AB4D](https://placehold.it/15/f03c15/000000?text=+) `#82AB4D`
-- ![#FFAD29](https://placehold.it/15/c5f015/000000?text=+) `#FFAD29`
-- ![#3E7054](https://placehold.it/15/1589F0/000000?text=+) `#3E7054 (COR DE APOIO)`
-- ![#FFEA2C](https://placehold.it/15/1589F0/000000?text=+) `#FFEA2C (COR DE APOIO`
-- ![#FFFFFF](https://placehold.it/15/1589F0/000000?text=+) `#FFFFFF`
-- ![#F1F1F1](https://placehold.it/15/1589F0/000000?text=+) `#F1F1F1`
-- ![#OOOOOO](https://placehold.it/15/1589F0/000000?text=+) `#000000`
+- ![#82AB4D](https://placehold.it/15/82AB4D/000000?text=+) `#82AB4D`
+- ![#FFAD29](https://placehold.it/15/FFAD29/000000?text=+) `#FFAD29`
+- ![#3E7054](https://placehold.it/15/3E7054/000000?text=+) `#3E7054 (COR DE APOIO)`
+- ![#FFEA2C](https://placehold.it/15/FFEA2C/000000?text=+) `#FFEA2C (COR DE APOIO)`
+- ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
+- ![#F1F1F1](https://placehold.it/15/F1F1F1/000000?text=+) `#F1F1F1`
+- ![#OOOOOO](https://placehold.it/15/000000/000000?text=+) `#000000`
 
 ### Para edição de arquivo README.md:
 
