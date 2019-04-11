@@ -1,3 +1,5 @@
+
+
 <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="../index.php">Deliveg</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -11,10 +13,10 @@
                     <a class="nav-link" href="./index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../loja/loja.php">Loja</a>
+                    <a class="nav-link" href="./loja/index.php">Loja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../carrinho/carrinho.php">Carrinho</a>
+                    <a class="nav-link" href="./carrinho/carrinho.php">Carrinho</a>
                 </li>
                 <li class="nav-item dropdown navbar-notlogged">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -29,6 +31,6 @@
                     </div>
                 </li>
             </ul>
-            <a href="./login/login.html" class="btn btn-primary my-2 my-sm-0">Login</a>
+            <a href="./login/login.php" class="btn btn-primary my-2 my-sm-0">Login</a>
         </div>
     </nav>

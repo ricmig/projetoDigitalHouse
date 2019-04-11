@@ -51,7 +51,6 @@ p{
     display:flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .section_oQueFazemos{
@@ -60,6 +59,11 @@ p{
 
 .section_QuemSomos{
     background-color:  #82AB4D;
+}
+
+.quem-somo__img {
+    width: 210px;
+    border-radius: 3px;
 }
 
 .section_raio{
