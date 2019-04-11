@@ -95,7 +95,7 @@
                         </div>
                     </div>
                     <div col="col-md-7 image-center">
-                            <img src="https://via.placeholder.com/375x218" alt="logo" >
+                            <img class="quem-somo__img" src="./img/logo1.jpeg" alt="logo" >
                     </div>  
                 </div>
             </div>

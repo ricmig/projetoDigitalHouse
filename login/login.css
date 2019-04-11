@@ -11,12 +11,11 @@
 }
 
 .form {
-  width: 600px;
   margin-top: 5em;
   background-color:white;
   padding: 4em;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(168, 168, 168, 0.918);
+  box-shadow: 5px 5px 5px rgba(168, 168, 168, 0.918);
 }
 
 label {
@@ -43,9 +42,20 @@ input:focus{
   margin-top: 0;
 }
 
+.link-cadastro, .link-login{
+  display: block;
+  text-align:center;
+}
+
+#login-btn, #cadastro-btn  {
+  display: block;
+  margin: 6px auto;
+}
+
 /*cadastro*/
 .cadastro-form-container{
   display: none;
+  margin-top: 80px;
   width: 100vw;
   height: 60vh;
   justify-content: center;
