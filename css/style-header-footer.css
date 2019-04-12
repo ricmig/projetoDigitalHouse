@@ -1,7 +1,29 @@
+#main-header {
+    box-shadow: 1px 1px 35px #ccc;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #ffffff;
+}
 
 .navbar {
-    background-color: #82AB4D;
+    /*background-color: #82AB4D;*/
     font-family: 'Fredoka One',cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.link-green {
+    padding:0 1em;
+    color: #82AB4D;
+}
+a.link-green:hover {
+    color: #3E7054;
 }
 
 .navbar-notlogged{
@@ -12,3 +34,9 @@
     display: flex;
 }
 
+@media (max-width: 1024px) {
+    .navbar-right {
+        display: block;
+    }
+    
+}
