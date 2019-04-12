@@ -2,9 +2,9 @@
 
 Plataforma E-commerce para venda de frutas e verduras. 
 
-    **Figma reference**: https://www.figma.com/files/team/690268141676220771/PROJETO-DIGITAL-HOUSE
+**Figma reference**: https://www.figma.com/files/team/690268141676220771/PROJETO-DIGITAL-HOUSE
 
-    **Test view**: https://ricmig.github.io/projetoDigitalHouse/
+**Test view**: https://projeto-dh.herokuapp.com/index.php
     
 ### Pre-requisitos para rodar o projeto:
 
