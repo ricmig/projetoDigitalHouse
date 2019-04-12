@@ -110,5 +110,10 @@
       <div class="total-price">$349</div>
     </div>
   </div>
+
+      <?php 
+        include '../footer.php';
+    ?>
+
 </body>
 </html>
