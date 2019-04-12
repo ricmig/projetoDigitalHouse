@@ -1,5 +1,5 @@
 
-
+<header  id="main-header">
 <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="../index.php">Deliveg</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,3 +34,4 @@
             <a href="./login/login.php" class="btn btn-primary my-2 my-sm-0">Login</a>
         </div>
     </nav>
+</header>
