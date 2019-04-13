@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ricmig/projetoDigitalHouse#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "popper.js": "^1.15.0"
   }
 }

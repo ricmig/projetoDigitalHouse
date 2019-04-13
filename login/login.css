@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .form-container {
-  margin-top: 3em;
   display: flex;
   width: 100vw;
   height: 80vh;
@@ -15,7 +21,19 @@
   background-color:white;
   padding: 4em;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(168, 168, 168, 0.918);
+  box-shadow: 1px 1px 5px rgba(168, 168, 168, 0.918);
+}
+
+.form-cadastro{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  height: 300px;
+  margin-top: 0em;
+  background-color:white;
+  padding: 4em;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(168, 168, 168, 0.918);
 }
 
 label {
@@ -28,6 +46,7 @@ input{
   border-radius: 3px;
   padding: .5em .5em;
   margin: .5em 0;
+  width: 180px;
 }
 input:focus{
   border: 2px solid rgb(75, 74, 74);
@@ -42,22 +61,30 @@ input:focus{
   margin-top: 0;
 }
 
-.link-cadastro, .link-login{
+.link-cadastro, {
   display: block;
   text-align:center;
 }
+.link-login{
+  display: block;
+  margin-top: 30px;
+  text-align:center;
+}
 
-#login-btn, #cadastro-btn  {
+#login-btn {
   display: block;
   margin: 6px auto;
 }
-
+#cadastro-btn {
+  margin-top: 40px;
+  height: 40px;
+  width:100px;
+}
 /*cadastro*/
 .cadastro-form-container{
   display: none;
-  margin-top: 80px;
-  width: 100vw;
-  height: 60vh;
+  margin-top: 30px; 
+  height: 80vh;
   justify-content: center;
   align-items:center
 }
