@@ -27,7 +27,7 @@ a.link-green:hover {
 }
 
 .navbar-notlogged{
-    display:none;   
+    display:flex;   
 }
 
 .navbar-logged{

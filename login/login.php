@@ -34,18 +34,6 @@
                     <li class="nav-item navbar-notlogged">
                         <a class="link-green" href="./carrinho/carrinho.php">Carrinho</a>
                     </li>
-                    <li class="nav-item dropdown navbar-notlogged">
-                        <a class="link-green dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
                 </ul>
                 <a href="./login/login.php" class="btn btn-success my-2 my-sm-0">Entrar</a>
             </div>
