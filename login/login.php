@@ -11,10 +11,49 @@
   <link rel="stylesheet" href="./login.css">
 </head>
 <body>
-    <?php 
-        include '../navbar.php';
-    ?>
 
+    <header  id="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../index.php">
+                <img src="../img/logo2.jpeg" alt="Logo Deliveg" width="auto" height="40px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div id="navbarSupportedContent" class="navbar-right collapse navbar-collapse">
+                <ul class="navbar-nav" >
+                    <li class="nav-item navbar-notlogged">
+                        <a class="link-green" href="../index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link-green" href="../loja/index.php" title="Loja">Loja</a>
+                    </li>
+                    <li class="nav-item navbar-notlogged">
+                        <a class="link-green" href="./carrinho/carrinho.php">Carrinho</a>
+                    </li>
+                    <li class="nav-item dropdown navbar-notlogged">
+                        <a class="link-green dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="./login/login.php" class="btn btn-success my-2 my-sm-0">Entrar</a>
+            </div>
+        </nav>
+    </header>
+
+
+ 
     <div id="login" class="form-container">
         <form class="form" action='/home'>
             <label  for="email">Email</label>
@@ -30,23 +69,25 @@
     </div>
     
     <div id="cadastro" class="cadastro-form-container">
-
-        <form class="form">
-            <label for="nome">Nome</label>
-            <input id="nome" type="text" name="nome" placeholder="seu nome">
-            <label for="email">Email</label>
-            <input id="cadastro-email" type="email" name="email" placeholder="seu email">
-            <p class='cadastro-email-error'></p>
-            <label for="password" >Senha</label>
-            <input id="cadastro-password" type="password" name='password'required minlength="6" maxlength="9" >
-            <p class='cadastro-password-error'></p>
-            <label for="password" >Confirmação de Senha</label>
-            <input id="cadastro-conf-password" type="password" name='password'required minlength="6" maxlength="9">
-            <p class='cadastro-password-conf-error'></p>
-            <button id="cadastro-btn" class='btn btn-primary' type="submit">Cadastrar e entrar</button>
-            <a href="#login" class="link-login">Já tem conta?<br> Faça o seu login.</a>
+        <form class="form-cadastro">
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" placeholder="seu nome">
+                <label for="email">Email</label>
+                <input id="cadastro-email" type="email" name="email" placeholder="seu email">
+                <p class='cadastro-email-error'></p>
+                <label for="password" >Senha</label>
+                <input id="cadastro-password" type="password" name='password'required minlength="6" maxlength="9" >
+                <p class='cadastro-password-error'></p>
+                <label for="password" >Confirmação de Senha</label>
+                <input id="cadastro-conf-password" type="password" name='password'required minlength="6" maxlength="9">
+                <p class='cadastro-password-conf-error'></p>
+            </div>  
+            <div>
+                <button id="cadastro-btn" class='btn btn-primary' type="submit">Cadastrar e entrar</button>
+                <a href="#login" class="link-login">Já tem conta?<br> Faça o seu login.</a>
+            </div>
         </form> 
-    
     </div>
 
     <?php 

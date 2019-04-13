@@ -1,7 +1,10 @@
+
+
+
 <header  id="main-header">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="../index.php">
-            <img src="./img/deliveg-logo-2.png" alt="Logo Deliveg" width="auto" height="40px">
+            <img src="./img/logo2.jpeg" alt="Logo Deliveg" width="auto" height="40px">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

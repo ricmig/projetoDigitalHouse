@@ -1,6 +1,5 @@
 #main-header {
-    box-shadow: 1px 1px 35px #ccc;
-    position: fixed;
+    box-shadow: 1px 1px 10px #ccc;
     z-index: 2;
     width: 100%;
     background: #ffffff;
@@ -11,6 +10,7 @@
     font-family: 'Fredoka One',cursive;
     font-size: 18px;
     font-weight: bold;
+    margin:0;
 }
 
 .navbar-right {
@@ -32,6 +32,15 @@ a.link-green:hover {
 
 .navbar-logged{
     display: flex;
+}
+
+
+footer{
+    background-color: rgb(233, 232, 224) ;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
