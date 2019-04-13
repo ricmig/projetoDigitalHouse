@@ -28,7 +28,7 @@
                     <li class="nav-item navbar-notlogged">
                         <a class="link-green" href="../index.php">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item navbar-notlogged">
                         <a class="link-green" href="../loja/index.php" title="Loja">Loja</a>
                     </li>
                     <li class="nav-item navbar-notlogged">
