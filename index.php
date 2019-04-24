@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Deliveg | Página Inicial</title>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style-header-footer.css">
     <link rel="stylesheet" href="css/style.css">
@@ -27,28 +27,28 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/maca.jpg" alt="maça">
+                        <img class="d-block w-100 zoom" src="img/maca.jpg" alt="maça">
                         <div class="carousel-caption d-md-block">
                             <h5>Maçã</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/cenoura.jpg" alt="cenoura">
+                        <img class="d-block w-100 zoom" src="img/cenoura.jpg" alt="cenoura">
                         <div class="carousel-caption d-md-block">
                             <h5>Cenoura</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/alface.jpg" alt="alface">
+                        <img class="d-block w-100 zoom" src="img/alface.jpg" alt="alface">
                         <div class="carousel-caption d-md-block">
                             <h5>Alface</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/pimentao.jpg" alt="pimentao">
+                        <img class="d-block w-100 zoom" src="img/pimentao.jpg" alt="pimentao">
                         <div class="carousel-caption d-md-block">
                             <h5>Pimentão</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -71,12 +71,11 @@
     <section class="section section_oQueFazemos">
         <div class="container">
             <div class="section_div">
-                <h2 class="text-center text-uppercase">O que fazemos</h2>
+                <h2 class="text-center text-uppercase">O que fazemos</h2>                
             </div>
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto OqueFazemos-div">
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam totam
-                reiciendis
-                necessitatibus odio fuga aliquam.</p>
+                reiciendis necessitatibus odio fuga aliquam.</p>
             </div>
         </div>
     </section>
@@ -84,7 +83,7 @@
     <!-- ========== Quem Somos ========== -->
 
     
-    <section class="section section_QuemSomos">
+    <section class="section section_QuemSomos card">
             <div class="container">
                 <div class="row section_div">
                     <div class="col-md-5"> 
@@ -95,7 +94,7 @@
                         </div>
                     </div>
                     <div col="col-md-7 image-center">
-                            <img class="quem-somo__img" src="./img/logo1.jpeg" alt="logo" >
+                            <img class="quem-somo__img" src="./img/deliveg1.png" alt="logo" >
                     </div>  
                 </div>
             </div>
