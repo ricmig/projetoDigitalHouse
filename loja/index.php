@@ -39,9 +39,65 @@
         </div>
     </nav>
 </header>
+
+<div class="container">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+    <div class="row">
+    <div class="col-md-3 col-sm-12">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action">Frutas</li>
+            <li class="list-group-item list-group-item-action">Verduras</li>
+            <li class="list-group-item list-group-item-action">Legumes</li>
+            <li class="list-group-item list-group-item-action">Outros</li>
+        </ul>
+    </div>
+    <div class="col-md-9 col-sm-12">
+    <section id="produtos-wrapper" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-1">
+            <div class="card">
+                <img class="card-img-top" src="img/alface-1.jpg" alt="Imagem do Produto">
+                <div class="card-body">
+                    <h5 class="nome-produto-card">Alface</h5>
+                    <p class="preco-card">R$ 1,99/kg</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-1">
+            <div class="card">
+                <img class="card-img-top" src="img/tomate-1.jpg" alt="Imagem do Produto">
+                <div class="card-body">
+                    <h5 class="nome-produto-card">Tomate</h5>
+                    <p class="preco-card">R$ 2,99/kg</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-1">
+            <div class="card">
+                <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
+                <div class="card-body">
+                    <h5 class="nome-produto-card">Banana</h5>
+                    <p class="preco-card">R$ 0,99/kg</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+
+
+    
+</div>
     
  
-    <section id="carousel">
+    <!--section id="carousel">
         <div class="categoria-produto">
             <a href="" target="_self">
                 <img src="https://via.placeholder.com/150" class="img-round" alt="Frutas"/>
@@ -82,8 +138,9 @@
                 </a>
             </h2>
         </div>
-    </section>
-    <section id="container-produtos">
+    </section -->
+
+   <!-- <section id="container-produtos">
         <div class="produto">
             <img src="https://via.placeholder.com/200" alt="Nome do produto">
             <div class="produto-wrapper">
@@ -116,7 +173,7 @@
                 <span>-</span>
             </div>
         </div> 
-    </section>
+    </section>-->
 
     <?php 
         include '../footer.php';

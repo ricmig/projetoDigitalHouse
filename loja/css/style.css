@@ -81,5 +81,38 @@ body {
     margin: 0 10px;
 }
 
+#produtos-wrapper .card .btn {
+    width: 100%;
+}
 
+.nome-produto-card {
+    color: #3E7054;
+    font-weight: bold;
+    font-size: 22px;
+}
 
+.preco-card {
+    font-weight: bold;
+    color: 000000;
+    font-size: 18px;
+}
+
+.card {
+    margin: 1em 0;
+}
+
+img.card-img-top {
+    max-height: 160px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.list-group {
+    margin: 1em;
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin: 1em;
+    }
+}
