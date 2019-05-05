@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style-header-footer.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -40,140 +42,140 @@
     </nav>
 </header>
 
-<div class="container">
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+<div class="container" style="margin-top: 120px;">
+    <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-action">Frutas</li>
+                <li class="list-group-item list-group-item-action">Verduras</li>
+                <li class="list-group-item list-group-item-action">Legumes</li>
+                <li class="list-group-item list-group-item-action">Outros</li>
+            </ul>
+        </div>
+    <div class="col-md-9 col-sm-12">
+        <section id="produtos-wrapper" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/alface-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Alface</h5>
+                        <p class="preco-card">R$ 1,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/tomate-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Tomate</h5>
+                        <p class="preco-card">R$ 2,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Banana</h5>
+                        <p class="preco-card">R$ 0,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/alface-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Alface</h5>
+                        <p class="preco-card">R$ 1,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/tomate-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Tomate</h5>
+                        <p class="preco-card">R$ 2,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Banana</h5>
+                        <p class="preco-card">R$ 0,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/alface-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Alface</h5>
+                        <p class="preco-card">R$ 1,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/tomate-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Tomate</h5>
+                        <p class="preco-card">R$ 2,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-1">
+                <div class="card">
+                    <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
+                    <div class="card-body">
+                        <h5 class="nome-produto-card">Banana</h5>
+                        <p class="preco-card">R$ 0,99/kg</p>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modal-produto">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+
+<div id="modal-produto" class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Banana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <h5 class="nome-produto-card">Banana</h5>
+                <p class="descricao-card">É a fruta mais popular do Brasil e um dos símbolos de países tropicais, a banana prata é também chamada de banana anã grande. </p>
+                <p class="preco-card">R$ 0,99/kg</p>
+                <button type="button" class="btn btn-success">Adicionar</button>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-    <div class="row">
-    <div class="col-md-3 col-sm-12">
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-action">Frutas</li>
-            <li class="list-group-item list-group-item-action">Verduras</li>
-            <li class="list-group-item list-group-item-action">Legumes</li>
-            <li class="list-group-item list-group-item-action">Outros</li>
-        </ul>
-    </div>
-    <div class="col-md-9 col-sm-12">
-    <section id="produtos-wrapper" class="row">
-        <div class="col-md-4 col-sm-6 col-xs-1">
-            <div class="card">
-                <img class="card-img-top" src="img/alface-1.jpg" alt="Imagem do Produto">
-                <div class="card-body">
-                    <h5 class="nome-produto-card">Alface</h5>
-                    <p class="preco-card">R$ 1,99/kg</p>
-                    <a href="#" class="btn btn-success">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-1">
-            <div class="card">
-                <img class="card-img-top" src="img/tomate-1.jpg" alt="Imagem do Produto">
-                <div class="card-body">
-                    <h5 class="nome-produto-card">Tomate</h5>
-                    <p class="preco-card">R$ 2,99/kg</p>
-                    <a href="#" class="btn btn-success">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-1">
-            <div class="card">
-                <img class="card-img-top" src="img/banana-1.jpg" alt="Imagem do Produto">
-                <div class="card-body">
-                    <h5 class="nome-produto-card">Banana</h5>
-                    <p class="preco-card">R$ 0,99/kg</p>
-                    <a href="#" class="btn btn-success">Comprar</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    </div>
-    </div>
 
 
-    
-</div>
-    
- 
-    <!--section id="carousel">
-        <div class="categoria-produto">
-            <a href="" target="_self">
-                <img src="https://via.placeholder.com/150" class="img-round" alt="Frutas"/>
-            </a>
-            <h2> 
-                <a href="#" target="_self">
-                    Frutas
-                </a>
-            </h2>
-        </div>
-        <div class="categoria-produto">
-            <a href="#" target="_self">
-                <img src="https://via.placeholder.com/150" class="img-round" alt="Verduras"/>
-            </a>
-            <h2> 
-                <a href="#" target="_self">
-                    Verduras
-                </a>
-            </h2>
-        </div>
-        <div class="categoria-produto">
-            <a href="#" target="_self">
-                <img src="https://via.placeholder.com/150" class="img-round" alt="Legumes"/>
-            </a>
-            <h2> 
-                <a href="#" target="_self">
-                   Legumes
-                </a>
-            </h2>
-        </div>
-        <div class="categoria-produto">
-            <a href="#" target="_self">
-                <img src="https://via.placeholder.com/150" class="img-round" alt="Outros"/>
-            </a>
-            <h2> 
-                <a href="#" target="_self">
-                    Outros
-                </a>
-            </h2>
-        </div>
-    </section -->
-
-   <!-- <section id="container-produtos">
-        <div class="produto">
-            <img src="https://via.placeholder.com/200" alt="Nome do produto">
-            <div class="produto-wrapper">
-                <span>+</span>
-                <p>Produto</p>
-                <span>-</span>
-            </div>
-        </div> 
-        <div class="produto">
-            <img src="https://via.placeholder.com/200" alt="Nome do produto">
-            <div class="produto-wrapper">
-                <span>+</span>
-                <p>Produto</p>
-                <span>-</span>
-            </div>
-        </div> 
-        <div class="produto">
-            <img src="https://via.placeholder.com/200" alt="Nome do produto">
-            <div class="produto-wrapper">
-                <span>+</span>
-                <p>Produto</p>
-                <span>-</span>
-            </div>
-        </div> 
-        <div class="produto">
-            <img src="https://via.placeholder.com/200" alt="Nome do produto">
-            <div class="produto-wrapper">
-                <span>+</span>
-                <p>Produto</p>
-                <span>-</span>
-            </div>
-        </div> 
-    </section>-->
 
     <?php 
         include '../footer.php';
