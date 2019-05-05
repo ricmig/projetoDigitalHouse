@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style-header-footer.css">
   <link rel="stylesheet" href="./perfil.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -42,20 +42,23 @@
     </nav>
 </header>
 
-  <div class="container">
+  <div class="container-perfil">
 
     <nav class="side-menu">
-      <button onclick="displayData('cadastro')" class="side-menu__btn">Dados Cadastrais</button>
-      <button onclick="displayData('pagamento')" class="side-menu__btn">Pagamento</button>
-      <button onclick="displayData('historico')" class="side-menu__btn">Histórico</button>
-      <button onclick="displayData('pedidosEmAndamento')" class="side-menu__btn">Pedidos em Andamento</button>
-      <button onclick="displayData('pedidosRecorrentes')" class="side-menu__btn">Pedido Recorrente</button>
+      <a href="#cadastro" onclick="displayData('cadastro')" class="side-menu__btn">Dados Cadastrais</a>
+      <a href="#pagamento" onclick="displayData('pagamento')" class="side-menu__btn">Pagamento</a>
+      <a href="#historico" onclick="displayData('historico')" class="side-menu__btn">Histórico</a>
+      <a href="#pedidosEmAndamento" onclick="displayData('pedidosEmAndamento')" class="side-menu__btn">Pedidos em Andamento</a>
+      <a href="#pedidosRecorrentes" onclick="displayData('pedidosRecorrentes')" class="side-menu__btn">Pedido Recorrente</a>
     </nav>
 
     <main class="display">
 
       <section class="cadastro hide" id="cadastro">
-        <h2>Dados Cadastrais</h2>
+      <div class="section__title">
+            <h2>Dados Cadastrais</h2>
+            <span onclick="closeSection('cadastro')">X</span>  
+        </div>
         <p class="cadastro__nome">Empresa X</p>
         <p class="cadastro__cnpj">45645644/0001-2</p>
         <p class="cadastro__endereço">Rua Maria Borba, 67</p>
@@ -63,9 +66,12 @@
       </section>
 
       <section id="pagamento"  class='hide'>
-        <h2>Pagamento</h2>
+        <div class="section__title">
+            <h2>Pagamento</h2>
+            <span onclick="closeSection('pagamento')">X</span>  
+        </div>
         <p>Tipos de pagamento:</p>
-        <select>
+        <select class="form-control">
           <option>Cartão de Crédito</option>
           <option>Débito em Conta</option>
           <option>Boleto Bancário</option>
@@ -73,7 +79,10 @@
       </section>
 
       <section id="historico" class='hide'>
-        <h2>Histórico de compras</h2>
+        <div class="section__title">
+            <h2>Histórico de compras</h2>
+            <span onclick="closeSection('historico')">X</span>  
+        </div>
         <table>
           <thead>
             <tr>
@@ -93,7 +102,10 @@
       </section>
 
       <section id="pedidosEmAndamento" class='hide'>
-        <h2>Pedidos em Andamento</h2>
+      <div class="section__title">
+            <h2>Pedidos em Andamento</h2>
+            <span onclick="closeSection('pedidosEmAndamento')">X</span>  
+        </div>
         <table>
           <thead>
             <tr>
@@ -115,7 +127,10 @@
       </section>
 
       <section id="pedidosRecorrentes" class='hide'>
-        <h2>Seu pedido recorrente:</h2>
+      <div class="section__title">
+            <h2>Pedidos Recorrentes</h2>
+            <span onclick="closeSection('pedidosRecorrentes')">X</span>  
+        </div>
         <ol>
           <li>5kg de Tomate</li>
           <li>5kg de Batata</li>
