@@ -45,10 +45,10 @@
     <div id="login" class="form-container">
         <form class="form" action='/home'>
             <label  for="email">Email</label>
-            <input id="login-email" type="email" name="email" placeholder="seu email" required>
+            <input id="login-email" class="form-control" type="email" name="email" placeholder="seu email" required>
             <p class='login-email-error'></p>
             <label for="password">Senha</label>
-            <input id="login-password" type="password" name='password' required minlength="6" maxlength="9">
+            <input id="login-password"class="form-control" type="password" name='password' required minlength="6" maxlength="9">
             <p class='login-password-error'></p>
             <button id="login-btn" class='btn btn-primary text-center' type="button">Entrar</button>
             <span id="loading-gif-login"></span>
@@ -59,22 +59,20 @@
     <div id="cadastro" class="cadastro-form-container">
         <form class="form-cadastro">
             <div>
-                <label for="nome">Nome</label>
-                <input id="nome" type="text" name="nome" placeholder="seu nome">
+                <label for="nome" >Nome</label>
+                <input id="nome"class="form-control" type="text" name="nome" placeholder="seu nome">
                 <label for="email">Email</label>
-                <input id="cadastro-email" type="email" name="email" placeholder="seu email">
+                <input id="cadastro-email"class="form-control" type="email" name="email" placeholder="seu email">
                 <p class='cadastro-email-error'></p>
-                <label for="password" >Senha</label>
-                <input id="cadastro-password" type="password" name='password'required minlength="6" maxlength="9" >
+                <label for="password">Senha</label>
+                <input id="cadastro-password" class="form-control" type="password" name='password'required minlength="6" maxlength="9" >
                 <p class='cadastro-password-error'></p>
-                <label for="password" >Confirmação de Senha</label>
-                <input id="cadastro-conf-password" type="password" name='password'required minlength="6" maxlength="9">
+                <label for="password">Confirmação de Senha</label>
+                <input id="cadastro-conf-password" class="form-control" type="password" name='password'required minlength="6" maxlength="9">
                 <p class='cadastro-password-conf-error'></p>
-            </div>  
-            <div>
                 <button id="cadastro-btn" class='btn btn-primary' type="submit">Cadastrar e entrar</button>
                 <a href="#login" class="link-login">Já tem conta?<br> Faça o seu login.</a>
-            </div>
+            </div>  
         </form> 
     </div>
 
