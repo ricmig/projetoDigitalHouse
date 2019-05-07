@@ -69,6 +69,12 @@ input:focus{
   border:none;
 }
 
+@media (max-width:900px) {
+  #cadastro-btn {
+    width: 151px;
+  }
+}
+
 #cadastro-btn:hover, #login-btn:hover{
   background-color:#3E7054;
 }
@@ -86,11 +92,12 @@ input:focus{
 /*cadastro*/
 .cadastro-form-container{
   display: none;
-  margin-top: 30px; 
+  margin-top: 55px; 
   height: 80vh;
   justify-content: center;
   align-items:center
 }
+
 
 .cadastro-email-error,
 .cadastro-password-error, 

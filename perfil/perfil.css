@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   width:300px;
+  margin-top: 30px;
 }
 
 .side-menu__btn {
@@ -32,6 +33,7 @@
 }
 .side-menu__btn:hover{
   background-color:rgba(125, 129, 206, 0.36);
+  text-decoration:none;
 }
 
 
@@ -71,7 +73,6 @@
 }
 
 section:hover {
-  transform: scale(1.2);
   transition: all .5s;
   background-color: rgba(235, 235, 235, 0.904);
   padding: 10px 15px;
