@@ -8,7 +8,9 @@
 
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style-header-footer.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../carrinho/css/style.css">
+    
+
 </head>
 <body>
 <header  id="main-header">
@@ -40,12 +42,12 @@
 </header>
 
   <div class="shopping-cart">
-    <!-- Title -->
+    <!-- Titulo -->
     <div class="title">
       Carrinho
     </div>
    
-    <!-- Product #1 -->
+    <!-- Produto #1 -->
     <div class="item">
       <div class="buttons">
         <span class="delete-btn"></span>
@@ -57,25 +59,24 @@
       </div>
    
       <div class="description">
-        <span>Common Projects</span>
-        <span>Bball High</span>
-        <span>White</span>
+        <span>Banana Nanica</span>
+        <span>Unidade</span>
       </div>
    
       <div class="quantity">
         <button class="plus-btn" type="button" name="button">
-          <img src="plus.svg" alt="" />
+          <div>+</div>
         </button>
         <input type="text" name="name" value="1">
         <button class="minus-btn" type="button" name="button">
-          <img src="minus.svg" alt="" />
+        <div>-</div>
         </button>
       </div>
    
-      <div class="total-price">$549</div>
+      <div class="total-price">R$ 05</div>
     </div>
    
-    <!-- Product #2 -->
+    <!-- Produto #2 -->
     <div class="item">
       <div class="buttons">
         <span class="delete-btn"></span>
@@ -87,25 +88,24 @@
       </div>
    
       <div class="description">
-        <span>Maison Margiela</span>
-        <span>Future Sneakers</span>
-        <span>White</span>
+        <span>Brócolis Ninja</span>
+        <span>Unidade</span>
       </div>
    
       <div class="quantity">
         <button class="plus-btn" type="button" name="button">
-          <img src="plus.svg" alt="" />
+        <div>+</div>
         </button>
         <input type="text" name="name" value="1">
         <button class="minus-btn" type="button" name="button">
-          <img src="minus.svg" alt="" />
+        <div>-</div>
         </button>
       </div>
    
-      <div class="total-price">$870</div>
+      <div class="total-price">R$ 07</div>
     </div>
    
-    <!-- Product #3 -->
+    <!-- Produto #03 -->
     <div class="item">
       <div class="buttons">
         <span class="delete-btn"></span>
@@ -117,28 +117,41 @@
       </div>
    
       <div class="description">
-        <span>Our Legacy</span>
-        <span>Brushed Scarf</span>
-        <span>Brown</span>
+        <span>Tomate Italiano</span>
+        <span>KG</span>
       </div>
    
       <div class="quantity">
         <button class="plus-btn" type="button" name="button">
-          <img src="plus.svg" alt="" />
+        <div>+</div>
         </button>
         <input type="text" name="name" value="1">
         <button class="minus-btn" type="button" name="button">
-          <img src="minus.svg" alt="" />
+        <div>-</div>
         </button>
       </div>
-   
-      <div class="total-price">$349</div>
+      <div class="total-price">R$ 03</div>
     </div>
+
+    <div class="total">
+      <div class="preco">
+      <span>Preço Total: R$ 15</span>
+      </div>
+      <div class="botaoDireita">
+      <button class="botaoComprar" type="button" name="button">Finalizar pedido</button>
+      </div>
+      </div>
+
+      
   </div>
 
+
+
+  <link rel="stylesheet" href="../carrinho/js/script.js">
       <?php 
         include '../footer.php';
     ?>
+
 
 </body>
 </html>
